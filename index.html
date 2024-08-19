@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook S1 M0.5 Gnius Onboarding</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .banner {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .banner .title {
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+        }
+        .banner .subtitle {
+            font-size: 1em;
+            margin-top: 5px;
+            border-top: 1px solid white;
+            padding-top: 5px;
+        }
+        .content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .step-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+            text-align: right;
+        }
+        .dialogue {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: right;
+            font-style: italic;
+        }
+    </style>
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="header">
+    <h1>Playbook S1 M0.5 Gnius Onboarding</h1>
+</div>
+
+<div class="container">
+
+    <!-- Actividad 1 (4 pasos) -->
+    <div id="activity-1" class="activity">
+        <div class="banner" onclick="toggleContent('saludo')">
+            <div class="title">
+                <span>📚 Actividad 1: Saludo y Ritual Gnius Club (4 pasos)</span>
+                <span>⏰ Tiempo: 3 minutos</span>
+            </div>
+            <div class="subtitle">Introducción y preparación</div>
+            <div class="summary">Saludo y ritual para iniciar la misión con energía.</div>
+        </div>
+        <div id="saludo" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 2 "Gnius Club"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Hola, Gnius! 🌟 Bienvenidos a una nueva aventura de aprendizaje que, te lo aseguro, será diferente a todo lo que has experimentado antes. Hoy es un día especial, porque estás a punto de descubrir qué es Gnius Club y cómo puede transformar la forma en la que aprendes y piensas. 🚀</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 2 (1 minuto): Proyectar Diapositiva 3 "¿Cómo están?" Y aprovecha para escanear quiénes pueden ser tus aliados el día de hoy.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Ahora que estamos a punto de comenzar, quiero hacer un pequeño check-in con ustedes. Piensen en cómo se sienten en este momento, y den una señal rápida: si están listos y emocionados por empezar, denme un pulgar arriba 👍. Si sienten que necesitan un poco más de motivación, un pulgar al centro está bien 👌. Y si no están muy convencidos, un pulgar abajo 👎.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 3 (0.5 minutos): Proyectar Diapositiva 4 y guiar a los estudiantes para el ritual "Gracias por Asistir"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Vamos a juntar nuestras manos en agradecimiento por lo que vamos aprender hoy ¡Gracias por Asistir!</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 4 (1 minuto): Proyectar Diapositiva 5 "Objetivos de la Misión"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Ahora que ya estamos listos, es hora de entrar en materia y conocer los objetivos de nuestra misión de hoy.</div>
+            </div>
+        </div>
+    </div>
+    <!-- Actividad 2 (2 pasos) -->
+<div id="activity-2" class="activity">
+    <div class="banner" onclick="toggleContent('innovacion')">
+        <div class="title">
+            <span>📚 Actividad 2: Innovación del Día (2 pasos)</span>
+            <span>⏰ Tiempo: 2.5 minutos</span>
+        </div>
+        <div class="subtitle">Exploración de nuevas ideas</div>
+        <div class="summary">Conocer las innovaciones que cambian la forma de aprender.</div>
+    </div>
+    <div id="innovacion" class="content">
+        <div class="section">
+            <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 6 "Innovación del Día"</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">Hoy vamos a explorar una aplicación increíble de la impresión 3D. ¿Se imaginan construir una casa completa en solo unos días? Con impresoras 3D gigantes, esto ya es posible. Estas impresoras pueden crear las paredes, techos, y hasta algunos muebles, todo de una vez, utilizando materiales que son buenos para el medio ambiente. ¡Es como si la impresora fuera una fábrica de casas!</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 2 (2 minutos): Proyectar Diapositiva 7 y reproducir el video de la innovación del día. Mientras se proyecta la diapositiva, explícales cómo la impresión 3D está revolucionando la construcción de viviendas.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">Vamos a ver un video que muestra cómo funcionan estas impresoras 3D gigantes. Fíjense en cómo construyen una casa capa por capa, con una precisión increíble. Esto no solo ahorra tiempo y dinero, sino que también permite construir en lugares donde sería difícil llevar materiales de construcción tradicionales. ¡La tecnología 3D está cambiando la forma en que construimos nuestras ciudades!</div>
+        </div>
+    </div>
+</div>
+
+    <!-- Actividad 3 (13 pasos) -->
+    <div id="activity-3" class="activity">
+        <div class="banner" onclick="toggleContent('brain_gym')">
+            <div class="title">
+                <span>📚 Actividad 3: Brain Gym (13 pasos)</span>
+                <span>⏰ Tiempo: 15 minutos</span>
+            </div>
+            <div class="subtitle">Ejercicios para activar la mente</div>
+            <div class="summary">Actividades para preparar el cerebro antes del desafío.</div>
+        </div>
+        <div id="brain_gym" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 8 "Brain Gym"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Antes de realizar el desafío del día, vamos a ejercitar nuestros cerebros adquiiendo un conocimiento nuevo. Así que pongan atención porque al final vamos a hacer equipos y el quipo que gane, le vamos a dar una impresión 3D a cada miembro.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 2 (1.5 minutos): Proyectar Diapositiva 9 "Misiones en Gnius Club" y explica el contenido</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Así es como vamos a trabajar este año en Gnius Club. ¡Prepárense para un recorrido lleno de aprendizajes y desafíos! Empezamos con 2 misiones de introducción que serán tu puerta de entrada al mundo de Gnius Club y te prepararán para lo que viene. Aquí es donde comenzamos a despertar tu creatividad y curiosidad. Luego, tenemos 26 misiones de Tecnología que trabajaremos durante el ciclo. Estas misiones están diseñadas para llevar tus habilidades al siguiente nivel, y no te preocupes si no cubrimos alguna, ¡lo importante es que disfrutes el proceso y aprendas a tu ritmo! A continuación, pasamos a un taller sobre la metodología de Innovación, que se impartirá en 4 sesiones. Aquí es donde vas a aprender a pensar y crear como un verdadero innovador. Y para cerrar con broche de oro, habrá 4 sesiones para desarrollar el proyecto final. Este es tu momento para brillar y mostrar todo lo que has aprendido. Además, tendremos 3 sesiones de cierre de año para presentar tu proyecto. Y como no todo es en clase, también tenemos 16 aventuras de Ciudadanía Digital que se viven exclusivamente online. Estas aventuras están diseñadas para que las explores en cualquier momento, llevándote a descubrir el poder del mundo digital de una manera única y emocionante. Todo esto es lo que recibirás por grado para poder llevar a cabo tus clases. ¡Será un año lleno de retos y crecimiento, y estamos aquí para acompañarte en cada paso! 🚀</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 3 (2.5 minutos): Proyectar Diapositiva 10 "Misiones en Gnius Club" y explica el contenido.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">En Gnius Club, cada misión está diseñada para llevarte a una nueva aventura de aprendizaje, donde cada paso tiene un propósito claro y emocionante. Aquí te explicamos cómo funcionan nuestras misiones: MISSION LAUNCH: Hacemos check-in para prepararnos para la misión. Objetivo: Antes de despegar, necesitamos asegurarnos de que todos estamos en la misma sintonía. Aquí hacemos un check-in para prepararnos mentalmente y estar listos para la aventura que nos espera. ¡Es como ajustar nuestros sensores antes del gran despegue! 🔄 BRIEFING: Descubriendo la innovación del día. Objetivo: Prepárate para inspirarte. En esta parte, te mostramos cómo la tecnología que estamos explorando tiene aplicaciones reales en el mundo. Verás que lo que aprendes aquí puede cambiar el juego allá afuera. 🚀 CREW TRAINING: Descubriendo y energizando mentes. Objetivo: Aquí es donde te enseñamos nuevos conocimientos y ejercitamos tus neuronas. Piensa en esto como tu momento NEO en Matrix: es como si te hicieran download de nuevas habilidades, justo como cuando aprendió Kung Fu. 🧠⚡ CHALLENGE: Desafío Creativo o Desarrollo del proyecto. Objetivo: Aquí es donde empieza la acción. Te armarás con un equipo para enfrentarte a un desafío creativo o desarrollar un proyecto. Es tu oportunidad de aplicar lo que sabes y colaborar con tus compañeros. ¡Manos a la obra! 🎨🔧 ZERO GRAVITY OPERATIONS: Comienza el trabajo colaborativo. Objetivo: El verdadero poder está en el trabajo en equipo. Aquí, junto a tu crew, comienzas a colaborar y a resolver los problemas como un equipo en gravedad cero, donde las ideas flotan y se conectan de formas increíbles. 🛰️🤝 LANDING: Reflexión Transformadora y Feedback. Objetivo: Después de tanta acción, es momento de reflexionar. Aquí evaluamos el progreso, compartimos lo aprendido y nos preparamos para el próximo despegue. La retroalimentación te ayudará a mejorar en cada misión. 🎯 MISSION COMPLETION: Cierre Épico con Reflexión Final de Logros. Objetivo: Terminamos la misión con un cierre épico, reflexionando sobre lo que logramos y reforzando los aprendizajes. Es el momento de celebrar los logros y prepararnos para el siguiente reto. 🌟 Cada misión es un paso más en tu camino hacia convertirte en un Prompt Sage y más allá. ¡Prepárate para aprender, colaborar y destacar en cada una de ellas!</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 4 (1 minuto): Proyectar Diapositiva 11 "Te pagamos por aprender" y explica el contenido.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Prepárate para llevar tu aprendizaje a otro nivel! Con Mon-e, nuestra moneda virtual, cada misión y lección de Ciudadanía Digital se convierte en una oportunidad para ganar recompensas. 🎮💰 Imagina esto: completas una misión, ganas Mon-e, y luego puedes cambiarlo por horas de impresión 3D para crear lo que quieras. ¿Un gadget personalizado? ¿Un accesorio único? ¡Tú decides! 🔥 Aquí, el aprendizaje no es solo aprender; es una aventura épica donde cada paso que das tiene un valor real. ¿Estás listo para empezar a acumular Mon-e y crear algo increíble?</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 5 (1.5 minutos): Proyectar Diapositiva 12 "Let's Print" y explica el contenido</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Echen un vistazo a lo que podrías crear con tus horas de impresión 3D! 🎨🖨️ Primero, tenemos un stand para gorras. Perfecto para mantener tus gorras organizadas y listas para cualquier aventura. 🧢✨ Luego, un stand para audífonos. No más cables enredados ni audífonos perdidos; ahora puedes tenerlos siempre a mano y listos para tu próxima sesión de música o gaming. 🎧🎮 Y, por último, algo verdaderamente épico: el Royal Ornithopter de House Atreides de Dune. Sí, lo que escuchaste. Si eres fan de Dune, imagina tener en tu escritorio este impresionante ornithopter, directamente salido del universo de Arrakis. 🚁🌌 Estas son solo algunas de las cosas que puedes crear cuando cambias tu Mon-e por horas de impresión 3D. Así que, ¿qué te gustaría hacer con tu Mon-e? ¡El límite, literal, es tu imaginación!”</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 6 (1 minuto): Proyectar Diapositiva 13 "¿Qué te gustaría imprimir?" y explica el contenido</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Ahora es tu turno! Vamos a hacer algo divertido. Tienes 1 minuto para explorar el sitio Thingiverse y encontrar algo que te encantaría imprimir en 3D. 🖨️✨ Piensa en lo que te gustaría tener en tu escritorio, algo que siempre has querido, o incluso algo que podría ser útil en tu día a día. ¿Un accesorio para tu consola? ¿Una figura de tu personaje favorito? ¡Las posibilidades son infinitas! Así que, ¡manos a la obra! Toma tu dispositivo, entra a Thingiverse, y empieza a buscar. Nos vemos en 1 minuto para compartir lo que encontraste. ¡A buscar!</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 7 (1 minuto): Proyectar Diapositiva 14 "Cronómetro de 1 minuto" o utiliza el semáforo.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                                <div class="dialogue">Vamos a usar un minuto para que todos tengan la oportunidad de explorar y decidir qué van a imprimir. ¡Tómate tu tiempo, y cuando estés listo, compártelo con el grupo!</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 8 (1 minuto): Proyectar Diapositiva 15 "Money Rewards" y explica el contenido</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Atención, Gnius! Hay dos formas épicas de ganar Mon-e extra, y aquí te las cuento: Double Points: Si todo el equipo se esfuerza y da lo mejor de sí, ¡boom! Los puntos de Mon-e de la misión se duplican. 💥 Es una oportunidad dorada para acumular más y más. Easter Egg: Mantén los ojos bien abiertos, porque hay Mon-e escondido en preguntas sorpresa sobre datos curiosos. ¿Tienes lo que se necesita para descubrir estos secretos y llevarte la recompensa? 🕵️‍♂️</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 9 (1 minuto): Proyectar Diapositiva 16 "Mon-erewards" y explicar el contenido.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Tu Mon-e tiene un poder increíble, pero solo podrás canjearlo por horas de impresión 3D después de completar todas tus lecciones de Ciudadanía Digital. Así que, mientras priorizas tu autoaprendizaje y demuestras lo que sabes, estarás desbloqueando la puerta para crear algo único y personalizado en el mundo real. ¡Es como pasar al siguiente nivel y conseguir la recompensa definitiva! 🚀🖨️</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 10 (1 minuto): Proyectar Diapositiva 17 "Gnius Ranks" y explicar el contenido.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Bienvenidos al universo de los Gnius Ranks! Aquí es donde puedes ver los diferentes niveles que puedes alcanzar a medida que avanzas en tus misiones y desarrollas nuevas habilidades. Cada rango representa un conjunto único de desafíos y aprendizajes, ¡y a medida que subes de nivel, te acercas más a convertirte en un verdadero maestro de la tecnología! 🚀 Como pueden ver, los Gnius Ranks van desde Code Explorer hasta AI Paragon, cubriendo un amplio espectro de habilidades tecnológicas. Pero hoy, vamos a enfocarnos en el nivel en el que se encuentran.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 11 (2 minutos): Proyectar Diapositiva 18 "Contenido del Rango" y pídeles a los estudiantes que sean voluntarios para leer el contenido del slide.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Genios! Necesito voluntarios para que me ayuden a leer lo que vamos aprender este año. Levante la mano quién me quiere ayudar con el primer párrafo. (Y continúa con los demás párrafos).</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 12 (2 minutos): Proyectar Diapositiva 19 "Augmented Humans" y pídeles a los estudiantes que sean voluntarios para leer el contenido del slide.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Genios! Necesito voluntarios para que me ayuden a leer lo que vamos aprender este año. Levante la mano quién me quiere ayudar con el primer párrafo. (Y continúa con los demás párrafos).</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 13 (0.5 minutos): Proyectar Diapositiva 20 "Avance Objetivos" y felicita a los Genios</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Muy bien! Al paso que van creo que van a llevarse los double points hoy. Ya cumplimos con dos de los objetivos de la misión.</div>
+            </div>
+        </div>
+    </div>
+    <!-- Actividad 4 (2 pasos) -->
+    <div id="activity-4" class="activity">
+        <div class="banner" onclick="toggleContent('state_change')">
+            <div class="title">
+                <span>📚 Actividad 4: State Change (2 pasos)</span>
+                <span>⏰ Tiempo: 1.5 minutos</span>
+            </div>
+            <div class="subtitle">Activación y enfoque</div>
+            <div class="summary">Preparación mental y física para el reto del día.</div>
+        </div>
+        <div id="state_change" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 21 "State Change"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Antes de ir a nuestro reto del día vamos a activar nuestro cerebro para que pueda dar lo mejor de sí.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 2 (1 minuto): Proyectar Diapositiva 22 y guiar a los Genios con la activación.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Vamos a tomar un pequeño descanso para recargar energías! A veces, cuando estamos mucho tiempo sentados o concentrados en una tarea, necesitamos activar el cuerpo y la mente para seguir al 100%. Y para eso, tenemos el Estiramiento de Estrella. 🌟 Este estiramiento no es solo una pausa; es una herramienta poderosa que puedes usar en cualquier momento que sientas que necesitas un impulso. ¿Estás en medio de un maratón de estudio y tu energía se está agotando? ¿Sientes que necesitas concentrarte más antes de una prueba o un partido importante? ¡Este es el momento perfecto para hacer el Estiramiento de Estrella! Ahora, todos de pie. Vamos a hacerlo juntos. Estira los brazos y piernas hacia fuera, formando una gran estrella. ¡Siente cómo tu cuerpo se estira y tu energía se renueva! Mantén la posición mientras contamos juntos... ¡10, 9, 8... hasta 1! Respira profundo mientras te estiras. Este pequeño ejercicio mejora la circulación, activa tus músculos y, lo más importante, te ayuda a reactivar tu mente para que puedas continuar dando lo mejor de ti. 💪🧠 ¡Listos para seguir con todo!”</div>
+            </div>
+        </div>
+    </div>
+    <!-- Actividad 5 (3 pasos) -->
+    <div id="activity-5" class="activity">
+        <div class="banner" onclick="toggleContent('team_gnius')">
+            <div class="title">
+                <span>📚 Actividad 5: Team Gnius (3 pasos)</span>
+                <span>⏰ Tiempo: 3 minutos</span>
+            </div>
+            <div class="subtitle">Trabajo en equipo</div>
+            <div class="summary">Organización de equipos para el reto.</div>
+        </div>
+        <div id="team_gnius" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 23 "Team Gnius"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">El reto que nos toca hoy se va hacer en equipos de 4. Así que les voy a dar 30 segundos para que decidan con quién van a trabajar.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 2 (0.5 minutos): Proyectar Diapositiva 24 "Cronómetro de 30 segundos" o utilizar tu semáforo de tiempo.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue"></div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 3 (2 minutos): Proyectar Diapositiva 25 "Cronómetro de 30 segundos" y entregar 4 Magic Tablet por representante</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Ahora elijan un representante de cada equipo para que sea quien dé las respuestas del reto.</div>
+            </div>
+        </div>
+    </div>
+    <!-- Actividad 6 (4 pasos) -->
+    <div id="activity-6" class="activity">
+        <div class="banner" onclick="toggleContent('challenge')">
+            <div class="title">
+                <span>📚 Actividad 6: Challenge (4 pasos)</span>
+                <span>⏰ Tiempo: 11.5 minutos</span>
+            </div>
+            <div class="subtitle">Desafío y evaluación</div>
+            <div class="summary">Evaluación interactiva y celebración del progreso.</div>
+        </div>
+        <div id="challenge" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (0.5 minutos): Proyectar Diapositiva 26 "Challenge"</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">Ahora sí, vamos a ver de qué se trata el desafío de hoy. Primero les voy a explicar nuestro siguiente desafío y luego la manera en la que vamos a colaborar.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 2 (10 minutos): Proyectar Diapositiva 27 y explicar el desafío. Después proyecta la trivia interactiva que viene en este link https://presenter.ahaslides.com/presentation/5830307</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Es hora de poner a prueba lo que han aprendido! Vamos a hacer un quiz interactivo donde cada equipo competirá para demostrar cuánto sabe sobre Gnius Club. 📚🎮 Así es como funciona: cada equipo elegirá a un representante, quien será el encargado de conectarse usando el link o escaneando el QR que aparece en la pantalla. Una vez conectados, trabajarán juntos para mandar las respuestas. ¡Recuerden, el trabajo en equipo es clave para ganar! 💪🤝 Y claro, no podría faltar la recompensa. El equipo que obtenga la mayor puntuación se llevará un premio muy especial: ¡unos increíbles ajolotes impresos en 3D! 🦎🖨️ No solo se trata de ganar, sino de demostrar que realmente han captado la esencia de Gnius Club. Así que, ¡vamos a divertirnos y a ver quién tiene lo que se necesita para llevarse esos ajolotes a casa! ¡Que comience la competencia! 🚀</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 3 (0.5 minutos): Proyectar Diapositiva 28 "Avance Objetivos" y felicita a los Genios</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">¡Woooow! ¡Lo lograron Genios! Cumplieron con los objetivos de la misión así que les toca llevar mon-e.</div>
+            </div>
+            <div class="section">
+                <div class="step-title">Paso 4 (0.5 minutos): Proyectar Diapositiva 29 "You've got mon-e" y celebra con los genios</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">(Celebración)</div>
+            </div>
+        </div>
+    </div>
+    <!-- Actividad 7 (1 paso) -->
+    <div id="activity-7" class="activity">
+        <div class="banner" onclick="toggleContent('honor_dojo')">
+            <div class="title">
+                <span>📚 Actividad 7: Honor de Dojo (1 paso)</span>
+                <span>⏰ Tiempo: 1 minuto</span>
+            </div>
+            <div class="subtitle">Cierre de la sesión</div>
+            <div class="summary">Animación de cierre y despedida.</div>
+        </div>
+        <div id="honor_dojo" class="content">
+            <div class="section">
+                <div class="step-title">Paso 1 (1 minuto): Proyectar Diapositiva 30 y reproducir la animación de honor de dojo.</div>
+                <div class="section-title">Diálogo del Maestro</div>
+                <div class="dialogue">No se olviden de dejar las computadoras como las encontraron antes de irse y nos vemos la próxima misión.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cierre del código HTML -->
+    </div> <!-- Cierre del contenedor principal -->
+</body>
+</html>
